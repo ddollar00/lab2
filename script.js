@@ -1,5 +1,10 @@
-const email = "your.email@example.com";
-const phone = "123-456-7890";
 
-document.getElementById("email").innerHTML = email;
-document.getElementById("phone").innerHTML = phone;
+
+function contactInfo() {
+    const email = "dollardamion@gmail.com";
+    var name = "Damion Dollar";
+    let number = '678-000-0000';
+    document.getElementById("input").innerHTML = email;
+    document.getElementById("input2").innerHTML = name;
+    document.getElementById("input3").innerHTML = number;
+}
